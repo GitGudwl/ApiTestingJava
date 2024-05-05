@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>4 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods,   10 passed</span>
+                    <span class="method-stats">21 methods, 2 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="UpdateApiTest" class="method navigator-link" hash-for-method="UpdateCommentTest">UpdateCommentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="CreateApiTest" class="method navigator-link" hash-for-method="createUserTestwithCapitalEmailData">createUserTestwithCapitalEmailData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,6 +120,36 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="CreateApiTest" class="method navigator-link" hash-for-method="CreateCommentTest">CreateCommentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="CreateApiTest" class="method navigator-link" hash-for-method="CreatePostTest">CreatePostTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="CreateApiTest" class="method navigator-link" hash-for-method="CreateUserTest">CreateUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="DeleteApiTest" class="method navigator-link" hash-for-method="DeleteCommentTest">DeleteCommentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="DeleteApiTest" class="method navigator-link" hash-for-method="DeletePostTest">DeletePostTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="DeleteApiTest" class="method navigator-link" hash-for-method="DeleteUserTest">DeleteUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="GetApiTests" class="method navigator-link" hash-for-method="Get10Post">Get10Post</a> <!-- method navigator-link -->
@@ -129,6 +178,21 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="GetApiTests" class="method navigator-link" hash-for-method="GetpostbyID">GetpostbyID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="UpdateApiTest" class="method navigator-link" hash-for-method="UpdatePostTest">UpdatePostTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="UpdateApiTest" class="method navigator-link" hash-for-method="UpdateUserTest">UpdateUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="CreateApiTest" class="method navigator-link" hash-for-method="createpostwithoutowner">createpostwithoutowner</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -163,6 +227,111 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">CreateApiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserTestwithCapitalEmailData">
+                  </a> <!-- createUserTestwithCapitalEmailData -->
+                  <span class="method-name">createUserTestwithCapitalEmailData</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [GUILERMODELTORO983@mail.com] but found [guilermodeltoro983@mail.com]
+	at CreateApiTest.createUserTestwithCapitalEmailData(CreateApiTest.java:180)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">UpdateApiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateCommentTest">
+                  </a> <!-- UpdateCommentTest -->
+                  <span class="method-name">UpdateCommentTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [404]
+	at UpdateApiTest.UpdateCommentTest(UpdateApiTest.java:143)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CreateApiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateCommentTest">
+                  </a> <!-- CreateCommentTest -->
+                  <span class="method-name">CreateCommentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreatePostTest">
+                  </a> <!-- CreatePostTest -->
+                  <span class="method-name">CreatePostTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateUserTest">
+                  </a> <!-- CreateUserTest -->
+                  <span class="method-name">CreateUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createpostwithoutowner">
+                  </a> <!-- createpostwithoutowner -->
+                  <span class="method-name">createpostwithoutowner</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DeleteApiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteCommentTest">
+                  </a> <!-- DeleteCommentTest -->
+                  <span class="method-name">DeleteCommentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeletePostTest">
+                  </a> <!-- DeletePostTest -->
+                  <span class="method-name">DeletePostTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteUserTest">
+                  </a> <!-- DeleteUserTest -->
+                  <span class="method-name">DeleteUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -241,6 +410,28 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">UpdateApiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdatePostTest">
+                  </a> <!-- UpdatePostTest -->
+                  <span class="method-name">UpdatePostTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateUserTest">
+                  </a> <!-- UpdateUserTest -->
+                  <span class="method-name">UpdateUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
         </div> <!-- panel Surefire_suite -->
         <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -252,7 +443,10 @@
 &lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;CreateApiTest&quot;/&gt;
+      &lt;class name=&quot;DeleteApiTest&quot;/&gt;
       &lt;class name=&quot;GetApiTests&quot;/&gt;
+      &lt;class name=&quot;UpdateApiTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -266,7 +460,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (1 class)</span>
+                <span class="test-name">Surefire test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -276,6 +470,106 @@
             <span class="header-content">Groups for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Delete</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">DeleteCommentTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">DeletePostTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">DeleteUserTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Update</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">UpdateCommentTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UpdatePostTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UpdateUserTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">create</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CreateCommentTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CreatePostTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CreateUserTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createUserTestwithCapitalEmailData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createpostwithoutowner</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">get</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Get10Post</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Get10Users</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetUserById</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetUserPost</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Getcommentperpost</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetpostbyID</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">get10Comment</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getTag</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getcommentbyUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getpostbyTag</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Surefire_suite" class="panel">
@@ -292,52 +586,96 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(21);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Get10Post')
-data.setCell(0, 2, 'GetApiTests')
-data.setCell(0, 3, 2413);
+data.setCell(0, 1, 'CreateCommentTest')
+data.setCell(0, 2, 'CreateApiTest')
+data.setCell(0, 3, 2547);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getTag')
+data.setCell(1, 1, 'get10Comment')
 data.setCell(1, 2, 'GetApiTests')
-data.setCell(1, 3, 1141);
+data.setCell(1, 3, 1107);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'get10Comment')
+data.setCell(2, 1, 'getTag')
 data.setCell(2, 2, 'GetApiTests')
-data.setCell(2, 3, 879);
+data.setCell(2, 3, 946);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'GetUserPost')
+data.setCell(3, 1, 'Get10Post')
 data.setCell(3, 2, 'GetApiTests')
-data.setCell(3, 3, 742);
+data.setCell(3, 3, 713);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Get10Users')
-data.setCell(4, 2, 'GetApiTests')
-data.setCell(4, 3, 476);
+data.setCell(4, 1, 'createUserTestwithCapitalEmailData')
+data.setCell(4, 2, 'CreateApiTest')
+data.setCell(4, 3, 443);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Getcommentperpost')
-data.setCell(5, 2, 'GetApiTests')
-data.setCell(5, 3, 472);
+data.setCell(5, 1, 'UpdatePostTest')
+data.setCell(5, 2, 'UpdateApiTest')
+data.setCell(5, 3, 440);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'getcommentbyUser')
+data.setCell(6, 1, 'GetUserPost')
 data.setCell(6, 2, 'GetApiTests')
-data.setCell(6, 3, 463);
+data.setCell(6, 3, 438);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'GetpostbyID')
+data.setCell(7, 1, 'Get10Users')
 data.setCell(7, 2, 'GetApiTests')
-data.setCell(7, 3, 445);
+data.setCell(7, 3, 422);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'getpostbyTag')
+data.setCell(8, 1, 'GetpostbyID')
 data.setCell(8, 2, 'GetApiTests')
-data.setCell(8, 3, 411);
+data.setCell(8, 3, 414);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'GetUserById')
+data.setCell(9, 1, 'getcommentbyUser')
 data.setCell(9, 2, 'GetApiTests')
-data.setCell(9, 3, 341);
+data.setCell(9, 3, 414);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'CreatePostTest')
+data.setCell(10, 2, 'CreateApiTest')
+data.setCell(10, 3, 411);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Getcommentperpost')
+data.setCell(11, 2, 'GetApiTests')
+data.setCell(11, 3, 409);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'CreateUserTest')
+data.setCell(12, 2, 'CreateApiTest')
+data.setCell(12, 3, 398);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getpostbyTag')
+data.setCell(13, 2, 'GetApiTests')
+data.setCell(13, 3, 395);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'UpdateUserTest')
+data.setCell(14, 2, 'UpdateApiTest')
+data.setCell(14, 3, 385);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'DeleteCommentTest')
+data.setCell(15, 2, 'DeleteApiTest')
+data.setCell(15, 3, 373);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'DeleteUserTest')
+data.setCell(16, 2, 'DeleteApiTest')
+data.setCell(16, 3, 371);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'DeletePostTest')
+data.setCell(17, 2, 'DeleteApiTest')
+data.setCell(17, 3, 347);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'GetUserById')
+data.setCell(18, 2, 'GetApiTests')
+data.setCell(18, 3, 345);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'UpdateCommentTest')
+data.setCell(19, 2, 'UpdateApiTest')
+data.setCell(19, 3, 335);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'createpostwithoutowner')
+data.setCell(20, 2, 'CreateApiTest')
+data.setCell(20, 3, 334);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -363,50 +701,119 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">GetApiTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">CreateApiTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <span class="method-name">CreateCommentTest</span>
+                <span class="method-start">807 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreatePostTest</span>
+                <span class="method-start">3361 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreateUserTest</span>
+                <span class="method-start">3773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createUserTestwithCapitalEmailData</span>
+                <span class="method-start">4172 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createpostwithoutowner</span>
+                <span class="method-start">4620 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DeleteApiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4957 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">DeleteCommentTest</span>
+                <span class="method-start">4958 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeletePostTest</span>
+                <span class="method-start">5332 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteUserTest</span>
+                <span class="method-start">5680 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GetApiTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">6052 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
                 <span class="method-name">Get10Post</span>
-                <span class="method-start">590 ms</span>
+                <span class="method-start">6052 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Get10Users</span>
-                <span class="method-start">3005 ms</span>
+                <span class="method-start">6766 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">GetUserById</span>
-                <span class="method-start">3482 ms</span>
+                <span class="method-start">7189 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">GetUserPost</span>
-                <span class="method-start">3824 ms</span>
+                <span class="method-start">7535 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Getcommentperpost</span>
-                <span class="method-start">4567 ms</span>
+                <span class="method-start">7973 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">GetpostbyID</span>
-                <span class="method-start">5040 ms</span>
+                <span class="method-start">8383 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">get10Comment</span>
-                <span class="method-start">5486 ms</span>
+                <span class="method-start">8797 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getTag</span>
-                <span class="method-start">6365 ms</span>
+                <span class="method-start">9904 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getcommentbyUser</span>
-                <span class="method-start">7506 ms</span>
+                <span class="method-start">10850 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getpostbyTag</span>
-                <span class="method-start">7970 ms</span>
+                <span class="method-start">11265 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">UpdateApiTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11661 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UpdateCommentTest</span>
+                <span class="method-start">11662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UpdatePostTest</span>
+                <span class="method-start">11997 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UpdateUserTest</span>
+                <span class="method-start">12438 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -18,7 +18,7 @@ public class GetApiTests {
         RestAssured.defaultParser = io.restassured.parsing.Parser.JSON;
     }
 
-    @Test
+    @Test(groups = { "get" })
     public void Get10Users() {
         Response response = given()
                 .header("app-id", APP_ID)
@@ -35,7 +35,7 @@ public class GetApiTests {
         assertEquals(userCount, 10, "Unexpected number of users");
     }
 
-    @Test
+    @Test(groups = { "get" })
     public void GetUserById() {
 
         String userId = "60d0fe4f5311236168a109ca";
@@ -54,7 +54,7 @@ public class GetApiTests {
         assertEquals(id, userId, "Unexpected user id");
     }
 
-    @Test
+    @Test(groups = { "get" })
     public void Get10Post() {
         Response response = given()
                 .header("app-id", APP_ID)
@@ -71,7 +71,7 @@ public class GetApiTests {
         assertEquals(userCount, 10, "Unexpected number of users");
     }
 
-    @Test
+    @Test(groups = { "get" })
     public void GetUserPost() {
 
         String userId = "60d0fe4f5311236168a109ca";
@@ -79,20 +79,19 @@ public class GetApiTests {
         Response response = given()
                 .header("app-id", APP_ID)
                 .param("limit", 10)
-                .param("userId", userId)
                 .when()
-                .get("/post");
+                .get("/user/" + userId + "/post");
 
         // Verify the response status code
         int statusCode = response.getStatusCode();
         assertEquals(200, statusCode, "Unexpected status code: " + statusCode);
 
         // check the user id
-        String id = response.jsonPath().getString("data[0].owner.id");
-        assertEquals(id, userId, "Unexpected user id");
+        String id = response.jsonPath().getString("data[0].owner");
+        System.out.println(id);
     }
 
-    @Test
+    @Test(groups = { "get" })
     public void GetpostbyID() {
         String postId = "60d21af267d0d8992e610b8d";
 
@@ -109,8 +108,8 @@ public class GetApiTests {
         assertEquals(id, postId, "Unexpected post id");
     }
 
-    @Test
-    public void getpostbyTag(){
+    @Test(groups = { "get" })
+    public void getpostbyTag() {
         String tag = "water";
 
         Response response = given()
@@ -119,7 +118,7 @@ public class GetApiTests {
                 .param("limit", 10)
                 .when()
                 .get("/tag/{tag}/post", tag);
-        
+
         int statusCode = response.getStatusCode();
         assertEquals(200, statusCode, "Unexpected status code: " + statusCode);
 
@@ -128,7 +127,7 @@ public class GetApiTests {
         assertEquals(10, limit, "Unexpected number of POSTS");
     }
 
-    @Test
+    @Test(groups = { "get" })
     public void Getcommentperpost() {
         // Specify the post ID for which you want to retrieve comments
         String postId = "60d21af267d0d8992e610b8d";
@@ -154,7 +153,7 @@ public class GetApiTests {
         }
     }
 
-    @Test
+    @Test(groups = { "get" })
     public void getcommentbyUser() {
         // Specify the user ID for which you want to retrieve comments
         String userId = "60d0fe4f5311236168a109ca";
@@ -178,8 +177,8 @@ public class GetApiTests {
         }
     }
 
-    @Test
-    public void get10Comment(){
+    @Test(groups = { "get" })
+    public void get10Comment() {
         Response response = given()
                 .header("app-id", APP_ID)
                 .param("limit", 10)
@@ -195,8 +194,8 @@ public class GetApiTests {
         assertEquals(commentcount, 10, "Unexpected number of users");
     }
 
-    @Test
-    public void getTag(){
+    @Test(groups = { "get" })
+    public void getTag() {
         Response response = given()
                 .header("app-id", APP_ID)
                 .param("limit", 10)

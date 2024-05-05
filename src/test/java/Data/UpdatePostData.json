@@ -1,0 +1,7 @@
+{
+    "text": "Check out this amazing sunset!, now we need to test every single component of it, so we can see if it works properly, and if it does, we can move on to the next step, which is to test the whole thing",
+    "image": "https://example.com/sunset.jpg",
+    "likes": 15,
+    "link": "https://example.com/article",
+    "tags": ["nature", "sunset", "photography","QA"]
+}

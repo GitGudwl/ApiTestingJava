@@ -1,0 +1,15 @@
+{
+    "title": "Ms.",
+    "firstName": "Scarlett",
+    "lastName": "Johansson",
+    "gender": "female",
+    "dateOfBirth": "1984-11-22T00:00:00.000Z",
+    "location": {
+      "street": "Hollywood Blvd",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "USA",
+      "timezone":"-8:00"
+  }
+}
+  
