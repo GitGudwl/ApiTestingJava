@@ -1,64 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="19" failed="2" skipped="0">
+<testng-results ignored="0" total="22" passed="20" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-05T21:17:57 ICT" name="Surefire suite" finished-at="2024-05-05T21:18:10 ICT" duration-ms="12857">
+  <suite started-at="2024-05-05T21:36:52 ICT" name="Surefire suite" finished-at="2024-05-05T21:37:12 ICT" duration-ms="19476">
     <groups>
       <group name="Delete">
-        <method signature="DeleteApiTest.DeleteCommentTest()[pri:0, instance:DeleteApiTest@1fe20588]" name="DeleteCommentTest" class="DeleteApiTest"/>
-        <method signature="DeleteApiTest.DeletePostTest()[pri:0, instance:DeleteApiTest@1fe20588]" name="DeletePostTest" class="DeleteApiTest"/>
-        <method signature="DeleteApiTest.DeleteUserTest()[pri:0, instance:DeleteApiTest@1fe20588]" name="DeleteUserTest" class="DeleteApiTest"/>
+        <method signature="DeleteApiTest.DeleteCommentTest()[pri:0, instance:DeleteApiTest@6973bf95]" name="DeleteCommentTest" class="DeleteApiTest"/>
+        <method signature="DeleteApiTest.DeletePostTest()[pri:0, instance:DeleteApiTest@6973bf95]" name="DeletePostTest" class="DeleteApiTest"/>
+        <method signature="DeleteApiTest.DeleteUserTest()[pri:0, instance:DeleteApiTest@6973bf95]" name="DeleteUserTest" class="DeleteApiTest"/>
       </group> <!-- Delete -->
       <group name="get">
-        <method signature="GetApiTests.Get10Post()[pri:0, instance:GetApiTests@6ce139a4]" name="Get10Post" class="GetApiTests"/>
-        <method signature="GetApiTests.Get10Users()[pri:0, instance:GetApiTests@6ce139a4]" name="Get10Users" class="GetApiTests"/>
-        <method signature="GetApiTests.GetUserById()[pri:0, instance:GetApiTests@6ce139a4]" name="GetUserById" class="GetApiTests"/>
-        <method signature="GetApiTests.GetUserPost()[pri:0, instance:GetApiTests@6ce139a4]" name="GetUserPost" class="GetApiTests"/>
-        <method signature="GetApiTests.Getcommentperpost()[pri:0, instance:GetApiTests@6ce139a4]" name="Getcommentperpost" class="GetApiTests"/>
-        <method signature="GetApiTests.GetpostbyID()[pri:0, instance:GetApiTests@6ce139a4]" name="GetpostbyID" class="GetApiTests"/>
-        <method signature="GetApiTests.get10Comment()[pri:0, instance:GetApiTests@6ce139a4]" name="get10Comment" class="GetApiTests"/>
-        <method signature="GetApiTests.getTag()[pri:0, instance:GetApiTests@6ce139a4]" name="getTag" class="GetApiTests"/>
-        <method signature="GetApiTests.getcommentbyUser()[pri:0, instance:GetApiTests@6ce139a4]" name="getcommentbyUser" class="GetApiTests"/>
-        <method signature="GetApiTests.getpostbyTag()[pri:0, instance:GetApiTests@6ce139a4]" name="getpostbyTag" class="GetApiTests"/>
+        <method signature="GetApiTests.Get10Post()[pri:0, instance:GetApiTests@2ddc8ecb]" name="Get10Post" class="GetApiTests"/>
+        <method signature="GetApiTests.Get10Users()[pri:0, instance:GetApiTests@2ddc8ecb]" name="Get10Users" class="GetApiTests"/>
+        <method signature="GetApiTests.GetUserById()[pri:0, instance:GetApiTests@2ddc8ecb]" name="GetUserById" class="GetApiTests"/>
+        <method signature="GetApiTests.GetUserPost()[pri:0, instance:GetApiTests@2ddc8ecb]" name="GetUserPost" class="GetApiTests"/>
+        <method signature="GetApiTests.Getcommentperpost()[pri:0, instance:GetApiTests@2ddc8ecb]" name="Getcommentperpost" class="GetApiTests"/>
+        <method signature="GetApiTests.GetpostbyID()[pri:0, instance:GetApiTests@2ddc8ecb]" name="GetpostbyID" class="GetApiTests"/>
+        <method signature="GetApiTests.get10Comment()[pri:0, instance:GetApiTests@2ddc8ecb]" name="get10Comment" class="GetApiTests"/>
+        <method signature="GetApiTests.getTag()[pri:0, instance:GetApiTests@2ddc8ecb]" name="getTag" class="GetApiTests"/>
+        <method signature="GetApiTests.getcommentbyUser()[pri:0, instance:GetApiTests@2ddc8ecb]" name="getcommentbyUser" class="GetApiTests"/>
+        <method signature="GetApiTests.getpostbyTag()[pri:0, instance:GetApiTests@2ddc8ecb]" name="getpostbyTag" class="GetApiTests"/>
       </group> <!-- get -->
       <group name="create">
-        <method signature="CreateApiTest.CreateCommentTest()[pri:0, instance:CreateApiTest@4278a03f]" name="CreateCommentTest" class="CreateApiTest"/>
-        <method signature="CreateApiTest.CreatePostTest()[pri:0, instance:CreateApiTest@4278a03f]" name="CreatePostTest" class="CreateApiTest"/>
-        <method signature="CreateApiTest.CreateUserTest()[pri:0, instance:CreateApiTest@4278a03f]" name="CreateUserTest" class="CreateApiTest"/>
-        <method signature="CreateApiTest.createUserTestwithCapitalEmailData()[pri:0, instance:CreateApiTest@4278a03f]" name="createUserTestwithCapitalEmailData" class="CreateApiTest"/>
-        <method signature="CreateApiTest.createpostwithoutowner()[pri:0, instance:CreateApiTest@4278a03f]" name="createpostwithoutowner" class="CreateApiTest"/>
+        <method signature="CreateApiTest.CreateCommentTest()[pri:0, instance:CreateApiTest@61dd025]" name="CreateCommentTest" class="CreateApiTest"/>
+        <method signature="CreateApiTest.CreatePostTest()[pri:0, instance:CreateApiTest@61dd025]" name="CreatePostTest" class="CreateApiTest"/>
+        <method signature="CreateApiTest.CreateUserTest()[pri:0, instance:CreateApiTest@61dd025]" name="CreateUserTest" class="CreateApiTest"/>
+        <method signature="CreateApiTest.createUserTestwithCapitalEmailData()[pri:0, instance:CreateApiTest@61dd025]" name="createUserTestwithCapitalEmailData" class="CreateApiTest"/>
+        <method signature="CreateApiTest.createpostwithoutowner()[pri:0, instance:CreateApiTest@61dd025]" name="createpostwithoutowner" class="CreateApiTest"/>
       </group> <!-- create -->
+      <group name="API access without app_id">
+        <method signature="TestingWithoutAppId.Get10UsersWithoutAppId()[pri:0, instance:TestingWithoutAppId@229d10bd]" name="Get10UsersWithoutAppId" class="TestingWithoutAppId"/>
+      </group> <!-- API access without app_id -->
       <group name="Update">
-        <method signature="UpdateApiTest.UpdateCommentTest()[pri:0, instance:UpdateApiTest@6973bf95]" name="UpdateCommentTest" class="UpdateApiTest"/>
-        <method signature="UpdateApiTest.UpdatePostTest()[pri:0, instance:UpdateApiTest@6973bf95]" name="UpdatePostTest" class="UpdateApiTest"/>
-        <method signature="UpdateApiTest.UpdateUserTest()[pri:0, instance:UpdateApiTest@6973bf95]" name="UpdateUserTest" class="UpdateApiTest"/>
+        <method signature="UpdateApiTest.UpdateCommentTest()[pri:0, instance:UpdateApiTest@47542153]" name="UpdateCommentTest" class="UpdateApiTest"/>
+        <method signature="UpdateApiTest.UpdatePostTest()[pri:0, instance:UpdateApiTest@47542153]" name="UpdatePostTest" class="UpdateApiTest"/>
+        <method signature="UpdateApiTest.UpdateUserTest()[pri:0, instance:UpdateApiTest@47542153]" name="UpdateUserTest" class="UpdateApiTest"/>
       </group> <!-- Update -->
     </groups>
-    <test started-at="2024-05-05T21:17:57 ICT" name="Surefire test" finished-at="2024-05-05T21:18:10 ICT" duration-ms="12857">
+    <test started-at="2024-05-05T21:36:52 ICT" name="Surefire test" finished-at="2024-05-05T21:37:12 ICT" duration-ms="19476">
       <class name="CreateApiTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:CreateApiTest@4278a03f]" started-at="2024-05-05T21:17:57 ICT" name="setUp" finished-at="2024-05-05T21:17:58 ICT" duration-ms="795" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CreateApiTest@61dd025]" started-at="2024-05-05T21:36:52 ICT" name="setUp" finished-at="2024-05-05T21:36:53 ICT" duration-ms="691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="CreateCommentTest()[pri:0, instance:CreateApiTest@4278a03f]" started-at="2024-05-05T21:17:58 ICT" name="CreateCommentTest" finished-at="2024-05-05T21:18:00 ICT" duration-ms="2547" status="PASS">
+        <test-method signature="CreateCommentTest()[pri:0, instance:CreateApiTest@61dd025]" started-at="2024-05-05T21:36:53 ICT" name="CreateCommentTest" finished-at="2024-05-05T21:36:55 ICT" duration-ms="2385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateCommentTest -->
-        <test-method signature="CreatePostTest()[pri:0, instance:CreateApiTest@4278a03f]" started-at="2024-05-05T21:18:00 ICT" name="CreatePostTest" finished-at="2024-05-05T21:18:01 ICT" duration-ms="411" status="PASS">
+        <test-method signature="CreatePostTest()[pri:0, instance:CreateApiTest@61dd025]" started-at="2024-05-05T21:36:55 ICT" name="CreatePostTest" finished-at="2024-05-05T21:36:56 ICT" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreatePostTest -->
-        <test-method signature="CreateUserTest()[pri:0, instance:CreateApiTest@4278a03f]" started-at="2024-05-05T21:18:01 ICT" name="CreateUserTest" finished-at="2024-05-05T21:18:01 ICT" duration-ms="398" status="PASS">
+        <test-method signature="CreateUserTest()[pri:0, instance:CreateApiTest@61dd025]" started-at="2024-05-05T21:36:56 ICT" name="CreateUserTest" finished-at="2024-05-05T21:36:56 ICT" duration-ms="368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateUserTest -->
-        <test-method signature="createUserTestwithCapitalEmailData()[pri:0, instance:CreateApiTest@4278a03f]" started-at="2024-05-05T21:18:01 ICT" name="createUserTestwithCapitalEmailData" finished-at="2024-05-05T21:18:02 ICT" duration-ms="443" status="FAIL">
+        <test-method signature="createUserTestwithCapitalEmailData()[pri:0, instance:CreateApiTest@61dd025]" started-at="2024-05-05T21:36:56 ICT" name="createUserTestwithCapitalEmailData" finished-at="2024-05-05T21:37:02 ICT" duration-ms="6260" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [GUILERMODELTORO983@mail.com] but found [guilermodeltoro983@mail.com]]]>
+              <![CDATA[expected [GUILERMODELTORO798@mail.com] but found [guilermodeltoro798@mail.com]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [GUILERMODELTORO983@mail.com] but found [guilermodeltoro983@mail.com]
+              <![CDATA[java.lang.AssertionError: expected [GUILERMODELTORO798@mail.com] but found [guilermodeltoro798@mail.com]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -105,81 +108,91 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserTestwithCapitalEmailData -->
-        <test-method signature="createpostwithoutowner()[pri:0, instance:CreateApiTest@4278a03f]" started-at="2024-05-05T21:18:02 ICT" name="createpostwithoutowner" finished-at="2024-05-05T21:18:02 ICT" duration-ms="334" status="PASS">
+        <test-method signature="createpostwithoutowner()[pri:0, instance:CreateApiTest@61dd025]" started-at="2024-05-05T21:37:02 ICT" name="createpostwithoutowner" finished-at="2024-05-05T21:37:03 ICT" duration-ms="334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createpostwithoutowner -->
       </class> <!-- CreateApiTest -->
       <class name="GetApiTests">
-        <test-method signature="Get10Post()[pri:0, instance:GetApiTests@6ce139a4]" started-at="2024-05-05T21:18:03 ICT" name="Get10Post" finished-at="2024-05-05T21:18:04 ICT" duration-ms="713" status="PASS">
+        <test-method signature="Get10Post()[pri:0, instance:GetApiTests@2ddc8ecb]" started-at="2024-05-05T21:37:04 ICT" name="Get10Post" finished-at="2024-05-05T21:37:04 ICT" duration-ms="747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Get10Post -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:GetApiTests@6ce139a4]" started-at="2024-05-05T21:18:03 ICT" name="setUp" finished-at="2024-05-05T21:18:03 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GetApiTests@2ddc8ecb]" started-at="2024-05-05T21:37:04 ICT" name="setUp" finished-at="2024-05-05T21:37:04 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Get10Users()[pri:0, instance:GetApiTests@6ce139a4]" started-at="2024-05-05T21:18:04 ICT" name="Get10Users" finished-at="2024-05-05T21:18:04 ICT" duration-ms="422" status="PASS">
+        <test-method signature="Get10Users()[pri:0, instance:GetApiTests@2ddc8ecb]" started-at="2024-05-05T21:37:04 ICT" name="Get10Users" finished-at="2024-05-05T21:37:05 ICT" duration-ms="440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Get10Users -->
-        <test-method signature="GetUserById()[pri:0, instance:GetApiTests@6ce139a4]" started-at="2024-05-05T21:18:04 ICT" name="GetUserById" finished-at="2024-05-05T21:18:05 ICT" duration-ms="345" status="PASS">
+        <test-method signature="GetUserById()[pri:0, instance:GetApiTests@2ddc8ecb]" started-at="2024-05-05T21:37:05 ICT" name="GetUserById" finished-at="2024-05-05T21:37:06 ICT" duration-ms="702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetUserById -->
-        <test-method signature="GetUserPost()[pri:0, instance:GetApiTests@6ce139a4]" started-at="2024-05-05T21:18:05 ICT" name="GetUserPost" finished-at="2024-05-05T21:18:05 ICT" duration-ms="438" status="PASS">
+        <test-method signature="GetUserPost()[pri:0, instance:GetApiTests@2ddc8ecb]" started-at="2024-05-05T21:37:06 ICT" name="GetUserPost" finished-at="2024-05-05T21:37:06 ICT" duration-ms="621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetUserPost -->
-        <test-method signature="Getcommentperpost()[pri:0, instance:GetApiTests@6ce139a4]" started-at="2024-05-05T21:18:05 ICT" name="Getcommentperpost" finished-at="2024-05-05T21:18:05 ICT" duration-ms="409" status="PASS">
+        <test-method signature="Getcommentperpost()[pri:0, instance:GetApiTests@2ddc8ecb]" started-at="2024-05-05T21:37:06 ICT" name="Getcommentperpost" finished-at="2024-05-05T21:37:07 ICT" duration-ms="451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Getcommentperpost -->
-        <test-method signature="GetpostbyID()[pri:0, instance:GetApiTests@6ce139a4]" started-at="2024-05-05T21:18:05 ICT" name="GetpostbyID" finished-at="2024-05-05T21:18:06 ICT" duration-ms="414" status="PASS">
+        <test-method signature="GetpostbyID()[pri:0, instance:GetApiTests@2ddc8ecb]" started-at="2024-05-05T21:37:07 ICT" name="GetpostbyID" finished-at="2024-05-05T21:37:07 ICT" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetpostbyID -->
-        <test-method signature="get10Comment()[pri:0, instance:GetApiTests@6ce139a4]" started-at="2024-05-05T21:18:06 ICT" name="get10Comment" finished-at="2024-05-05T21:18:07 ICT" duration-ms="1107" status="PASS">
+        <test-method signature="get10Comment()[pri:0, instance:GetApiTests@2ddc8ecb]" started-at="2024-05-05T21:37:07 ICT" name="get10Comment" finished-at="2024-05-05T21:37:08 ICT" duration-ms="899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get10Comment -->
-        <test-method signature="getTag()[pri:0, instance:GetApiTests@6ce139a4]" started-at="2024-05-05T21:18:07 ICT" name="getTag" finished-at="2024-05-05T21:18:08 ICT" duration-ms="946" status="PASS">
+        <test-method signature="getTag()[pri:0, instance:GetApiTests@2ddc8ecb]" started-at="2024-05-05T21:37:08 ICT" name="getTag" finished-at="2024-05-05T21:37:09 ICT" duration-ms="1450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTag -->
-        <test-method signature="getcommentbyUser()[pri:0, instance:GetApiTests@6ce139a4]" started-at="2024-05-05T21:18:08 ICT" name="getcommentbyUser" finished-at="2024-05-05T21:18:08 ICT" duration-ms="414" status="PASS">
+        <test-method signature="getcommentbyUser()[pri:0, instance:GetApiTests@2ddc8ecb]" started-at="2024-05-05T21:37:09 ICT" name="getcommentbyUser" finished-at="2024-05-05T21:37:10 ICT" duration-ms="334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getcommentbyUser -->
-        <test-method signature="getpostbyTag()[pri:0, instance:GetApiTests@6ce139a4]" started-at="2024-05-05T21:18:08 ICT" name="getpostbyTag" finished-at="2024-05-05T21:18:09 ICT" duration-ms="395" status="PASS">
+        <test-method signature="getpostbyTag()[pri:0, instance:GetApiTests@2ddc8ecb]" started-at="2024-05-05T21:37:10 ICT" name="getpostbyTag" finished-at="2024-05-05T21:37:10 ICT" duration-ms="555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getpostbyTag -->
       </class> <!-- GetApiTests -->
-      <class name="DeleteApiTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:DeleteApiTest@1fe20588]" started-at="2024-05-05T21:18:02 ICT" name="setUp" finished-at="2024-05-05T21:18:02 ICT" duration-ms="1" status="PASS">
+      <class name="TestingWithoutAppId">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestingWithoutAppId@229d10bd]" started-at="2024-05-05T21:37:10 ICT" name="setUp" finished-at="2024-05-05T21:37:10 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="DeleteCommentTest()[pri:0, instance:DeleteApiTest@1fe20588]" started-at="2024-05-05T21:18:02 ICT" name="DeleteCommentTest" finished-at="2024-05-05T21:18:02 ICT" duration-ms="373" status="PASS">
+        <test-method signature="Get10UsersWithoutAppId()[pri:0, instance:TestingWithoutAppId@229d10bd]" started-at="2024-05-05T21:37:10 ICT" name="Get10UsersWithoutAppId" finished-at="2024-05-05T21:37:11 ICT" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get10UsersWithoutAppId -->
+      </class> <!-- TestingWithoutAppId -->
+      <class name="DeleteApiTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:DeleteApiTest@6973bf95]" started-at="2024-05-05T21:37:03 ICT" name="setUp" finished-at="2024-05-05T21:37:03 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DeleteCommentTest()[pri:0, instance:DeleteApiTest@6973bf95]" started-at="2024-05-05T21:37:03 ICT" name="DeleteCommentTest" finished-at="2024-05-05T21:37:03 ICT" duration-ms="346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteCommentTest -->
-        <test-method signature="DeletePostTest()[pri:0, instance:DeleteApiTest@1fe20588]" started-at="2024-05-05T21:18:02 ICT" name="DeletePostTest" finished-at="2024-05-05T21:18:03 ICT" duration-ms="347" status="PASS">
+        <test-method signature="DeletePostTest()[pri:0, instance:DeleteApiTest@6973bf95]" started-at="2024-05-05T21:37:03 ICT" name="DeletePostTest" finished-at="2024-05-05T21:37:03 ICT" duration-ms="418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeletePostTest -->
-        <test-method signature="DeleteUserTest()[pri:0, instance:DeleteApiTest@1fe20588]" started-at="2024-05-05T21:18:03 ICT" name="DeleteUserTest" finished-at="2024-05-05T21:18:03 ICT" duration-ms="371" status="PASS">
+        <test-method signature="DeleteUserTest()[pri:0, instance:DeleteApiTest@6973bf95]" started-at="2024-05-05T21:37:03 ICT" name="DeleteUserTest" finished-at="2024-05-05T21:37:04 ICT" duration-ms="348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteUserTest -->
       </class> <!-- DeleteApiTest -->
       <class name="UpdateApiTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:UpdateApiTest@6973bf95]" started-at="2024-05-05T21:18:09 ICT" name="setUp" finished-at="2024-05-05T21:18:09 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:UpdateApiTest@47542153]" started-at="2024-05-05T21:37:11 ICT" name="setUp" finished-at="2024-05-05T21:37:11 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="UpdateCommentTest()[pri:0, instance:UpdateApiTest@6973bf95]" started-at="2024-05-05T21:18:09 ICT" name="UpdateCommentTest" finished-at="2024-05-05T21:18:09 ICT" duration-ms="335" status="FAIL">
+        <test-method signature="UpdateCommentTest()[pri:0, instance:UpdateApiTest@47542153]" started-at="2024-05-05T21:37:11 ICT" name="UpdateCommentTest" finished-at="2024-05-05T21:37:11 ICT" duration-ms="316" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [200] but found [404]]]>
@@ -233,11 +246,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateCommentTest -->
-        <test-method signature="UpdatePostTest()[pri:0, instance:UpdateApiTest@6973bf95]" started-at="2024-05-05T21:18:09 ICT" name="UpdatePostTest" finished-at="2024-05-05T21:18:10 ICT" duration-ms="440" status="PASS">
+        <test-method signature="UpdatePostTest()[pri:0, instance:UpdateApiTest@47542153]" started-at="2024-05-05T21:37:11 ICT" name="UpdatePostTest" finished-at="2024-05-05T21:37:11 ICT" duration-ms="349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdatePostTest -->
-        <test-method signature="UpdateUserTest()[pri:0, instance:UpdateApiTest@6973bf95]" started-at="2024-05-05T21:18:10 ICT" name="UpdateUserTest" finished-at="2024-05-05T21:18:10 ICT" duration-ms="385" status="PASS">
+        <test-method signature="UpdateUserTest()[pri:0, instance:UpdateApiTest@47542153]" started-at="2024-05-05T21:37:11 ICT" name="UpdateUserTest" finished-at="2024-05-05T21:37:12 ICT" duration-ms="349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateUserTest -->

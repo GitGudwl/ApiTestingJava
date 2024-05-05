@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="13.473" tests="21" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="20.019" tests="22" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Zahri Hidayat\AppData\Local\Temp\surefire1098664370461763308\surefirebooter-20240505211756632_3.jar C:\Users\Zahri Hidayat\AppData\Local\Temp\surefire1098664370461763308 2024-05-05T21-17-56_376-jvmRun1 surefire-20240505211756632_1tmp surefire_0-20240505211756632_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Zahri Hidayat\AppData\Local\Temp\surefire15277962210780565205\surefirebooter-20240505213651730_3.jar C:\Users\Zahri Hidayat\AppData\Local\Temp\surefire15277962210780565205 2024-05-05T21-36-51_496-jvmRun1 surefire-20240505213651730_1tmp surefire_0-20240505213651730_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Kuliah\Software Testing\API\test\target\test-classes;D:\Kuliah\Software Testing\API\test\target\classes;C:\Users\Zahri Hidayat\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Zahri Hidayat\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Zahri Hidayat\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Zahri Hidayat\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Zahri Hidayat\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Zahri Hidayat\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\Zahri Hidayat\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Zahri Hidayat\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Zahri Hidayat\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Zahri Hidayat\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Zahri Hidayat\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Zahri Hidayat\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Zahri Hidayat\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Zahri Hidayat\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Zahri Hidayat\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Zahri Hidayat\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\Zahri Hidayat\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Zahri Hidayat\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\Zahri Hidayat\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\Zahri Hidayat\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Zahri Hidayat\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Zahri Hidayat\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Zahri Hidayat\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Zahri Hidayat\AppData\Local\Temp\surefire1098664370461763308\surefirebooter-20240505211756632_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Zahri Hidayat\AppData\Local\Temp\surefire15277962210780565205\surefirebooter-20240505213651730_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
@@ -56,16 +56,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="CreateCommentTest" classname="CreateApiTest" time="2.548">
+  <testcase name="CreateCommentTest" classname="CreateApiTest" time="2.388">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="CreatePostTest" classname="CreateApiTest" time="0.411"/>
-  <testcase name="CreateUserTest" classname="CreateApiTest" time="0.398"/>
-  <testcase name="createUserTestwithCapitalEmailData" classname="CreateApiTest" time="0.447">
-    <failure message="expected [GUILERMODELTORO983@mail.com] but found [guilermodeltoro983@mail.com]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [GUILERMODELTORO983@mail.com] but found [guilermodeltoro983@mail.com]
+  <testcase name="CreatePostTest" classname="CreateApiTest" time="0.393"/>
+  <testcase name="CreateUserTest" classname="CreateApiTest" time="0.369"/>
+  <testcase name="createUserTestwithCapitalEmailData" classname="CreateApiTest" time="6.262">
+    <failure message="expected [GUILERMODELTORO798@mail.com] but found [guilermodeltoro798@mail.com]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [GUILERMODELTORO798@mail.com] but found [guilermodeltoro798@mail.com]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -108,24 +108,25 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
   </testcase>
-  <testcase name="createpostwithoutowner" classname="CreateApiTest" time="0.335"/>
-  <testcase name="DeleteCommentTest" classname="DeleteApiTest" time="0.374"/>
-  <testcase name="DeletePostTest" classname="DeleteApiTest" time="0.348"/>
-  <testcase name="DeleteUserTest" classname="DeleteApiTest" time="0.37"/>
-  <testcase name="Get10Post" classname="GetApiTests" time="0.713"/>
-  <testcase name="Get10Users" classname="GetApiTests" time="0.423"/>
-  <testcase name="GetUserById" classname="GetApiTests" time="0.346"/>
-  <testcase name="GetUserPost" classname="GetApiTests" time="0.44">
+  <testcase name="createpostwithoutowner" classname="CreateApiTest" time="0.336"/>
+  <testcase name="DeleteCommentTest" classname="DeleteApiTest" time="0.346"/>
+  <testcase name="DeletePostTest" classname="DeleteApiTest" time="0.418"/>
+  <testcase name="DeleteUserTest" classname="DeleteApiTest" time="0.347"/>
+  <testcase name="Get10Post" classname="GetApiTests" time="0.748"/>
+  <testcase name="Get10Users" classname="GetApiTests" time="0.44"/>
+  <testcase name="GetUserById" classname="GetApiTests" time="0.703"/>
+  <testcase name="GetUserPost" classname="GetApiTests" time="0.623">
     <system-out><![CDATA[[id:60d0fe4f5311236168a109ca, title:ms, firstName:Sara, lastName:Andersen, picture:https://randomuser.me/api/portraits/women/58.jpg]
 ]]></system-out>
   </testcase>
-  <testcase name="Getcommentperpost" classname="GetApiTests" time="0.408"/>
-  <testcase name="GetpostbyID" classname="GetApiTests" time="0.413"/>
-  <testcase name="get10Comment" classname="GetApiTests" time="1.105"/>
-  <testcase name="getTag" classname="GetApiTests" time="0.945"/>
-  <testcase name="getcommentbyUser" classname="GetApiTests" time="0.414"/>
-  <testcase name="getpostbyTag" classname="GetApiTests" time="0.396"/>
-  <testcase name="UpdateCommentTest" classname="UpdateApiTest" time="0.335">
+  <testcase name="Getcommentperpost" classname="GetApiTests" time="0.45"/>
+  <testcase name="GetpostbyID" classname="GetApiTests" time="0.336"/>
+  <testcase name="get10Comment" classname="GetApiTests" time="0.898"/>
+  <testcase name="getTag" classname="GetApiTests" time="1.45"/>
+  <testcase name="getcommentbyUser" classname="GetApiTests" time="0.334"/>
+  <testcase name="getpostbyTag" classname="GetApiTests" time="0.554"/>
+  <testcase name="Get10UsersWithoutAppId" classname="TestingWithoutAppId" time="0.319"/>
+  <testcase name="UpdateCommentTest" classname="UpdateApiTest" time="0.316">
     <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -170,6 +171,6 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
   </testcase>
-  <testcase name="UpdatePostTest" classname="UpdateApiTest" time="0.439"/>
-  <testcase name="UpdateUserTest" classname="UpdateApiTest" time="0.385"/>
+  <testcase name="UpdatePostTest" classname="UpdateApiTest" time="0.349"/>
+  <testcase name="UpdateUserTest" classname="UpdateApiTest" time="0.349"/>
 </testsuite>

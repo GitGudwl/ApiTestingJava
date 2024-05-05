@@ -213,9 +213,11 @@ public class CreateApiTest {
                     .post("/post/create");
 
             // Assert the response status code
-            assertEquals(400, response.getStatusCode());
+            assertEquals(response.getStatusCode(), 400 );
         } else {
             throw new RuntimeException("User data could not be loaded from JSON file.");
         }
     }
+
+
 }

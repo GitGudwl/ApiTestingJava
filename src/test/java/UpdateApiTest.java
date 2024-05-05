@@ -116,7 +116,7 @@ public class UpdateApiTest {
             commentsID = new String(
                     java.nio.file.Files
                             .readAllBytes(java.nio.file.Paths.get("src/test/java/Data/saved_id_comment.txt")));
-            commentId = commentsID.split("\n")[0];
+            commentId = commentsID.split("\n")[2];
         } catch (java.io.IOException e) {
             e.printStackTrace();
         }

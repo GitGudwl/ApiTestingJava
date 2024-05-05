@@ -3,18 +3,18 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="CreateApiTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="createUserTestwithCapitalEmailData"/>
-        </methods>
-      </class> <!-- CreateApiTest -->
       <class name="UpdateApiTest">
         <methods>
           <include name="UpdateCommentTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- UpdateApiTest -->
+      <class name="CreateApiTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="createUserTestwithCapitalEmailData"/>
+        </methods>
+      </class> <!-- CreateApiTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
