@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-05T17:02:49 ICT" name="Surefire suite" finished-at="2024-05-05T17:02:58 ICT" duration-ms="8406">
+    <groups>
+    </groups>
+    <test started-at="2024-05-05T17:02:49 ICT" name="Surefire test" finished-at="2024-05-05T17:02:58 ICT" duration-ms="8406">
+      <class name="GetApiTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GetApiTests@11a9e7c8]" started-at="2024-05-05T17:02:49 ICT" name="setUp" finished-at="2024-05-05T17:02:50 ICT" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Get10Post()[pri:0, instance:GetApiTests@11a9e7c8]" started-at="2024-05-05T17:02:50 ICT" name="Get10Post" finished-at="2024-05-05T17:02:52 ICT" duration-ms="2413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get10Post -->
+        <test-method signature="Get10Users()[pri:0, instance:GetApiTests@11a9e7c8]" started-at="2024-05-05T17:02:52 ICT" name="Get10Users" finished-at="2024-05-05T17:02:53 ICT" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get10Users -->
+        <test-method signature="GetUserById()[pri:0, instance:GetApiTests@11a9e7c8]" started-at="2024-05-05T17:02:53 ICT" name="GetUserById" finished-at="2024-05-05T17:02:53 ICT" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUserById -->
+        <test-method signature="GetUserPost()[pri:0, instance:GetApiTests@11a9e7c8]" started-at="2024-05-05T17:02:53 ICT" name="GetUserPost" finished-at="2024-05-05T17:02:54 ICT" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUserPost -->
+        <test-method signature="Getcommentperpost()[pri:0, instance:GetApiTests@11a9e7c8]" started-at="2024-05-05T17:02:54 ICT" name="Getcommentperpost" finished-at="2024-05-05T17:02:54 ICT" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Getcommentperpost -->
+        <test-method signature="GetpostbyID()[pri:0, instance:GetApiTests@11a9e7c8]" started-at="2024-05-05T17:02:54 ICT" name="GetpostbyID" finished-at="2024-05-05T17:02:55 ICT" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetpostbyID -->
+        <test-method signature="get10Comment()[pri:0, instance:GetApiTests@11a9e7c8]" started-at="2024-05-05T17:02:55 ICT" name="get10Comment" finished-at="2024-05-05T17:02:55 ICT" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get10Comment -->
+        <test-method signature="getTag()[pri:0, instance:GetApiTests@11a9e7c8]" started-at="2024-05-05T17:02:55 ICT" name="getTag" finished-at="2024-05-05T17:02:57 ICT" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTag -->
+        <test-method signature="getcommentbyUser()[pri:0, instance:GetApiTests@11a9e7c8]" started-at="2024-05-05T17:02:57 ICT" name="getcommentbyUser" finished-at="2024-05-05T17:02:57 ICT" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcommentbyUser -->
+        <test-method signature="getpostbyTag()[pri:0, instance:GetApiTests@11a9e7c8]" started-at="2024-05-05T17:02:57 ICT" name="getpostbyTag" finished-at="2024-05-05T17:02:58 ICT" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getpostbyTag -->
+      </class> <!-- GetApiTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
