@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 22, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 20.02 s <<< FAILURE! -- in TestSuite
-CreateApiTest.createUserTestwithCapitalEmailData -- Time elapsed: 6.262 s <<< FAILURE!
-java.lang.AssertionError: expected [GUILERMODELTORO798@mail.com] but found [guilermodeltoro798@mail.com]
+Tests run: 24, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 15.58 s <<< FAILURE! -- in TestSuite
+CreateApiTest.createUserTestwithCapitalEmailData -- Time elapsed: 0.681 s <<< FAILURE!
+java.lang.AssertionError: expected [GUILERMODELTORO683@mail.com] but found [guilermodeltoro683@mail.com]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -45,7 +45,7 @@ java.lang.AssertionError: expected [GUILERMODELTORO798@mail.com] but found [guil
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-UpdateApiTest.UpdateCommentTest -- Time elapsed: 0.316 s <<< FAILURE!
+UpdateApiTest.UpdateCommentTest -- Time elapsed: 0.319 s <<< FAILURE!
 java.lang.AssertionError: expected [200] but found [404]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
